@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contenedor__nav{
+    width: 100%;
+    height: 700px;
+    background: #0F2027;
+        background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+        background: linear-gradient(to right, hsla(197, 38%, 28%, 0.719), hsla(194, 35%, 19%, 0.712), hsla(198, 43%, 11%, 0.712)), url(./imgs/fondo-Portada-NVO-min.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        
+}
+
+.contenedor__nav{
+    width: 100%;
+}
+
+.contenedor__links{
+    width: 50%;
+    margin-left: 50%;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor__links li a{
+    text-decoration: none;
+    color: #132229;
+    font-weight: 500;
+    font-family: "Urbanist", sans-serif;
+    font-size: 17px;
+}
+
+.contenedor__links li{
+    margin-top: 20px;
+    list-style: none;
+}
+
+.contenedor__principal{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.contenedor__imagenes{
+    display: flex;
+    width: 50%;
+    margin-top: 6%;
+}
+
+.imgs__portada1{
+    width: 300px;
+    z-index: 9;
+    border-radius: 10px;
+    box-shadow: 6px 8px 17px rgba(44, 73, 85, 0.53);
+}
+
+.imgs__portada2{
+    width: 300px;
+    margin-top: 70px;
+    margin-left: -20px;
+    border-radius: 10px;
+    box-shadow: 6px 8px 17px rgba(44, 73, 85, 0.53);
+}
+
+.titulo__pagina{
+    margin-top: 45%;
+    font-family: "Reenie Beanie", cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.wove{
+    margin-top: -4%;
+    position: relative;
+    bottom: 0;
+}
+
+/* Seccion experiencias */
+
+#seccion__experiencias{
+    margin-top: 10%;
+}
+
+.color__fondo{
+    width: 100%;
+    position: absolute;
+    height: 260px;
+    background: #0F2027;
+        background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+      
+        background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+        
+}
+
+.contenedor__titulo__experiencia{
+    position: relative;
+    margin-left: 35%;
+}
+
+.titulo__experiencia{
+    font-size: 30px;
+    font-weight: 500;
+    font-family:"Anta", sans-serif;
+    color: white;
+    top: 15%;
+}
+
+.contenedor__cards{
+    width: 90%;
+    margin: auto;
+    height: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.card{
+    position: relative;
+    width: 300px; 
+}
+
+.contenedor__txt__exp{
+    background-color: white;
+    width: 300px;
+    height: 180px;
+    border: 1px solid #2C5364;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Urbanist", sans-serif;
+    
+}
+
+.contenedor__txt__exp p{
+    margin-top: 4%;
+}
+
+
+.bord__img{
+    margin-left: 38%;
+    
+}
+
+.img__avatar{
+    width: 90px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #b3b28e;
+}
+
+.contenedor__estrellas{
+    display: flex;
+}
+
+.gratificacion{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+/* Seccion instrumentos  */
+
+#instrumentos{
+    margin-top: 20%;
+}
+
+h2{
+    margin-left: 35%;
+    margin-top: 30%;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: "Anta", sans-serif;
+    color: #2C5364;
+    top: 15%;
+}
+
+.contendor__cardhover{
+    padding-top: 100px;
+    display: flex;
+    width: 95%;
+    margin: auto;
+    font-family: "Urbanist", sans-serif;
+}
+
+.card__hover{
+    width: 300px;
+    height: 250px;
+    border-radius: 6px;
+    position: relative;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card__hover img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+    border-radius: 6px;
+}
+
+.contenedor__txt__img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(32, 58, 67, 0.8);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.card__hover:hover > .contenedor__txt__img{
+    opacity: 1;
+    visibility: visible;
+}
+
+.card__hover:hover > .contenedor__txt__img .titulo__img{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.titulo__img{
+    color: #fff;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 140px;
+    transition: all 500ms ease-out;
+    font-family: "Urbanist", sans-serif;
+}
+
+.contenedor__txt__img p{
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* .p2{
+    margin-top: 5%;
+} */
+
+.divisor{
+    width: 50%;
+    /* background-color: #b3b28e; */
+    display: flex;
+}
+
+.contenedor__box{
+    border: 1px solid #ffffff;
+    background: #86d5f7;
+        background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    
+        background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    width: 450px;
+    height: 80px;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: -10%;
+    z-index: 995;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.contenedor__box p{
+    color: #b3b28e;
+        padding: 5px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.5;
+}
+
+.contenedor__box2{
+    border: 1px solid #ffffff;
+    background: #0F2027;
+    width: 450px;
+    height: 80px;
+    flex-wrap: wrap;
+    margin-top: 25%;
+    margin-right: -10%;
+    z-index: 995;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.contenedor__box2 p{
+    color: #b3b28e;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* Ventas */
+
+#indicaciones{
+    margin-top: 10%;
+}
+
+h3{
+    margin-left: 40%;
+    margin-top: 10%;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: "Anta", sans-serif;
+    color: #2C5364;
+}
+
+.contenedor__vtas__gen{
+    display: flex;
+    width: 95%;
+    margin: auto;
+
+}
+
+.contenedor__img__vtas{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.contenedor__img__vtas img{
+    width: 80%;
+}
+
+
+.contenedor__vtas__ind div{
+    margin-top: 15%;
+    
+}
+
+.contenedor__vtas__ind{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.numeros__vtas{
+    
+    margin: auto;
+    color: #203A43;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Anta", sans-serif;
+}
+
+.ind__vtas{
+    font-family: "Urbanist", sans-serif;
+    margin-top: 2%;
+    margin-left: 4%;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+}
+
+
+/* footer */
+
+footer{
+    margin-top: 15%;
+    width: 100%;
+    height: 400px;
+    background: #203A43;
+    position: absolute;
+}
+
+.sitio{
+    width: 200px;
+    margin-top: 4%;
+    margin-left: 8%;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+.sitio li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.sitio li{
+    list-style-type: none;
+    margin-top: 5%;
+}
+
+
+h4{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+.separador{
+    margin-top: 13%;
+}
+
+.separador p{
+    color: #fff;
+    margin-left: 35%;
+
+}
+
+.desarrollado p{
+    margin-left: 42%;
+    color: #fff;
+    font-family: "Urbanist", sans-serif;
+}
+
